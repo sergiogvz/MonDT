@@ -1,4 +1,4 @@
-# MonDT - Decision Trees for Classification with Monotonic Constraints
+# MonDT - Decision Trees for Classification with Monotonicity Constraints
 
 This repository implements two different decision trees for monotonic classification:
 
@@ -9,3 +9,14 @@ This repository implements two different decision trees for monotonic classifica
 - Rank Entropy-Based Decision Trees for Monotonic Classification (REMT)
 
   Hu, Q., Che, X., Zhang, L., Zhang, D., Guo, M., & Yu, D. (2011). Rank entropy-based decision trees for monotonic classification. IEEE Transactions on Knowledge and Data Engineering, 24(11), 2052-2064.
+
+## Example
+
+The file *exampleMonDT* is an example of the execution of these decision trees with the the Artiset data-set. The results obtained are the followings:
+
+| Algorithm | Accuracy | MAE | NMI |
+| -- | -- | -- | -- |
+| RDMT_Gini | 0.81 | 0.19 | 0.0 |
+| RDMT_Shannon | 0.86 | 0.14 | 0.0 |
+| RDMT_Pessimistic | 0.88 | 0.12 | 0.0 |
+| REMT | 0.86 | 0.14 | 0.0 |
